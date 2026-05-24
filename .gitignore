@@ -1,0 +1,18 @@
+# Local IDE configuration directories
+.vscode/
+.idea/
+
+# Local-only execution and configuration files
+.local_vars/
+*.env
+*.local
+
+# Infrastructure state & provider lock files
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# System / OS specific files
+.DS_Store
+Thumbs.db
